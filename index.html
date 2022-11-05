@@ -11,11 +11,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="overlay">
+      <a id="close_menu" onclick="closeMenu()"
+        ><img src="./assets/images/icon-menu-close.svg" alt=""
+      /></a>
+      <div class="navigation_overlay">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </div>
     <div class="container">
-      <nav class="display_flex">
+      <nav class="header">
         <div class="logo section">
           <a href="#"><img src="./assets/images/logo.svg" alt="logo" /></a>
         </div>
@@ -26,12 +39,17 @@
           <a href="#">Trending</a>
           <a href="#">Categories</a>
         </div>
+        <div class="open_menu">
+          <a id="open_menu" onclick="openMenu()"
+            ><img src="./assets/images/icon-menu.svg" alt=""
+          /></a>
+        </div>
       </nav>
       <main>
-        <article class="display_grid">
+        <article class="page_grid">
           <div class="one image">
             <img
-              src="./assets/images/image-web-3-desktop.jpg"
+              src="./assets/images/image-web-3-mobile.jpg"
               alt="hero image"
             />
           </div>
@@ -46,7 +64,7 @@
           </div>
           <div class="four sidebar">
             <div class="title"><h2>New</h2></div>
-            <div class="content">
+            <div class="sidebar_content">
               <div>
                 <h3 class="post_title">Hydrogen VS Electric cars</h3>
                 <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
