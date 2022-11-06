@@ -38,9 +38,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 4rem 0;
   min-height: 100vh;
   margin: 0;
@@ -61,8 +58,6 @@ h6,
 span,
 p,
 a {
-  color: black;
-  font-weight: var(--fw-regular);
   margin: 0;
 }
 a {
@@ -71,7 +66,6 @@ a {
 .container {
   max-width: 100%;
   /* margin: auto; */
-  display: flex;
   flex-direction: column;
   gap: 2.6666666667rem;
 }
@@ -82,13 +76,10 @@ a {
 }
 /* Header styling */
 .header {
-  display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
 }
 .section {
-  display: flex;
   gap: 2rem;
 }
 .open_menu {
@@ -118,7 +109,6 @@ a {
 .overlay {
   transform: translateX(200%);
   transition: transform 0.5s cubic-bezier(0.39, 0.23, 0.16, 0.42);
-  display: flex;
   flex-direction: column;
   gap: 4rem;
   position: fixed;
@@ -134,7 +124,6 @@ a {
   align-self: end;
 }
 .navigation_overlay {
-  display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
@@ -153,13 +142,9 @@ main {
   flex-grow: 1;
 }
 .page_grid {
-  display: grid;
   gap: 3.5rem;
 }
 .one {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 .one img {
@@ -179,7 +164,7 @@ main {
     grid-column: span 2;
   }
   .one img {
-    content: url(./assets/images/image-web-3-desktop.jpg);
+    content: url(../assets/images/image-web-3-desktop.jpg);
   }
 }
 
@@ -189,7 +174,6 @@ main {
 }
 
 .three {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
@@ -227,7 +211,6 @@ main {
   }
 }
 .sidebar {
-  display: flex;
   flex-direction: column;
   /* gap: 2rem; */
   background-color: var(--very-dark-blue);
@@ -240,7 +223,6 @@ main {
 }
 .sidebar_content {
   flex-grow: 1;
-  display: flex;
   flex-direction: column;
   /* gap: 1.5rem; */
   justify-content: space-evenly;
@@ -285,7 +267,6 @@ hr {
   }
 }
 .recommendation {
-  display: grid;
   gap: 1.8rem;
 }
 @media (min-width: 50em) {
@@ -295,7 +276,6 @@ hr {
 }
 .card {
   flex-grow: 1;
-  display: flex;
   gap: 1rem;
 }
 .thumbnail img {
@@ -303,7 +283,6 @@ hr {
   max-width: 95px;
 }
 .list_content {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 5px;

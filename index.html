@@ -10,7 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/utility.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="shortcut icon"
       href="./assets/images/favicon-32x32.png"
@@ -19,12 +21,12 @@
     <script src="main.js" defer></script>
     <title>News Homepage</title>
   </head>
-  <body>
-    <div class="overlay">
+  <body class="display_flex justify_center align_center">
+    <div class="overlay display_flex">
       <a id="close_menu" onclick="closeMenu()"
         ><img src="./assets/images/icon-menu-close.svg" alt=""
       /></a>
-      <div class="navigation_overlay">
+      <div class="navigation_overlay display_flex">
         <a href="#">Home</a>
         <a href="#">New</a>
         <a href="#">Popular</a>
@@ -32,12 +34,12 @@
         <a href="#">Categories</a>
       </div>
     </div>
-    <div class="container">
-      <nav class="header">
+    <div class="container display_flex">
+      <nav class="header display_flex align_center">
         <div class="logo section">
           <a href="#"><img src="./assets/images/logo.svg" alt="logo" /></a>
         </div>
-        <div class="navigation section">
+        <div class="navigation section display_flex">
           <a href="#">Home</a>
           <a href="#">New</a>
           <a href="#">Popular</a>
@@ -51,15 +53,15 @@
         </div>
       </nav>
       <main>
-        <article class="page_grid">
-          <div class="one image">
+        <article class="page_grid display_grid">
+          <div class="one image display_flex justify_center align_center">
             <img
               src="./assets/images/image-web-3-mobile.jpg"
               alt="hero image"
             />
           </div>
           <div class="two title"><h1>The Bright Future of Web 3.0?</h1></div>
-          <div class="three description">
+          <div class="three description display_flex">
             <p>
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is
@@ -67,9 +69,9 @@
             </p>
             <button class="button">Read More</button>
           </div>
-          <div class="four sidebar">
+          <div class="four sidebar display_flex">
             <div class="title"><h2>New</h2></div>
-            <div class="sidebar_content">
+            <div class="sidebar_content display_flex">
               <div>
                 <h3 class="post_title">Hydrogen VS Electric cars</h3>
                 <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
@@ -92,32 +94,32 @@
               </div>
             </div>
           </div>
-          <div class="five recommendation">
-            <div class="card">
+          <div class="five recommendation display_grid">
+            <div class="card display_flex">
               <div class="thumbnail">
                 <img src="./assets/images/image-retro-pcs.jpg" />
               </div>
-              <div class="list_content">
+              <div class="list_content display_flex">
                 <h2 class="list_number">01</h2>
                 <h3 class="list_title">Reviving Retro PCs</h3>
                 <p>What happens when old PCs are given modern upgrades?</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card display_flex">
               <div class="thumbnail">
                 <img src="./assets/images/image-top-laptops.jpg" />
               </div>
-              <div class="list_content">
+              <div class="list_content display_flex">
                 <h2 class="list_number">02</h2>
                 <h3 class="list_title">Top 10 Laptops of 2022</h3>
                 <p>Our best picks for various needs and budgets</p>
               </div>
             </div>
-            <div class="card">
+            <div class="card display_flex">
               <div class="thumbnail">
                 <img src="./assets/images/image-gaming-growth.jpg" />
               </div>
-              <div class="list_content">
+              <div class="list_content display_flex">
                 <h2 class="list_number">03</h2>
                 <h3 class="list_title">The Growth of Gaming</h3>
                 <p>How the pandemic has sparked fresh opportunities.</p>
