@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor page](https://www.frontendmentor.io/solutions/responsive-news-homepage-using-grid-dMLdqftEoe)
 - Live Site URL: [On Github](https://theniceguywastaken.github.io/news-homepage-main/)
 
 ## My process
