@@ -129,9 +129,13 @@ a {
   gap: 1.5rem;
 }
 .navigation_overlay a {
+  cursor: pointer;
   font-size: var(--fs-600);
   font-weight: var(--fw-semi-bold);
   color: var(--very-dark-blue);
+}
+.navigation_overlay a:focus {
+  color: var(--soft-red);
 }
 @media (min-width: 50em) {
   .overlay {
